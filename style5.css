@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    text-align: center;
+    background-color: black;
+  }
+  nav a{
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: turquoise;
+  }
+h1{
+ text-transform: uppercase;
+ text-align: center;
+ color: black;
+}
+h1:after{
+    content: '';
+    background: black;
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 10px auto;
+}
+h3{
+ text-align: center;
+ color: black;
+}
+#Portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}
+
+
