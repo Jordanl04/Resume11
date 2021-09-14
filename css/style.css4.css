@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('bg2.jpg');
+    background-position-x: center;
+    background-size: cover;
+    animation: animateBg 50% linear infinite;
+}
+@keyframes animateBg{
+    0% {
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2)
+    }
+}
+span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(255,255,255,0.1),
+    0 0 0 8px rgba(255,255,255,0.1),
+    0 0 0 20px rgba(255,255,255,1);
+}
